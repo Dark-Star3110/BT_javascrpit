@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interes Rate</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Money(milion)</td>
+            <td>Time</td>
+            <td>Interest Rate</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><input type="number" id="money"></td>
+            <td><select name="" id="time">
+                <option value="6">6 month</option>
+                <option value="12">12 month</option>
+                <option value="24">24 month</option>
+            </select>
+        </td>
+            <td><select id="ir">
+                <option value="0.023">2,3%</option>
+                <option value="0.0345">3,45%</option>
+                <option value="0.069">6,9%</option>
+            </select>
+        </td>
+        <td><button onclick="cal()">Result</button></td>
+        </tr>
+    </table>
+    <br>
+    <h2 id="result"></h2>
+    <script src="my.js"></script>
+</body>
+</html>
