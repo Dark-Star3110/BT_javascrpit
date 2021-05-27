@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Input month:</h3>
+    <input type="number" id="month">
+    <br>
+    <h3>Enter to continue</h3>
+    <br>
+    <h3 id="result"></h3>
+    <script src="my.js"></script>
+    <script>
+        window.addEventListener('keyup',function(event){
+            if(event.keyCode == 13){
+                number_days();
+            }
+        })
+    </script>
+</body>
+</html>
